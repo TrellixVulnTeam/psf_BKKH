@@ -9,7 +9,7 @@ import {
     Table,
     Spin,
     Empty,
-    Button,Tag, Badge, Popconfirm, Radio
+    Button,Tag, Badge, Popconfirm, Radio,Image
 } from 'antd';
 
 import {
@@ -179,7 +179,11 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Simo</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image
+                    width={100}
+                    src="1657458714913](https://user-images.githubusercontent.com/72573914/186020237-c287f738-fef0-4bfa-8ff1-b437e51aacc4.jpg"
+            </Footer>
         </Layout>
     </Layout>
 }
